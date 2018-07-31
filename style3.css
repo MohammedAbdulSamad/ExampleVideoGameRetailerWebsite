@@ -42,7 +42,7 @@ body, html {
     width: 100%;
     top: 80px;
     overflow: visible;
-    position: fixed;
+    position:absolute;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -284,6 +284,7 @@ body, html {
 }
 
 .headlines .column {
+    height: 400px;
 }
 
 .footer {
@@ -291,7 +292,7 @@ body, html {
     background-color: #5e5e5e;
     color: white;
     bottom: 0;
-    position: absolute;
+    margin-top: 10px;
 }
 
 .footer .fCol {
