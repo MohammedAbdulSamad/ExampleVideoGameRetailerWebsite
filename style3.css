@@ -163,6 +163,7 @@ body, html {
     width: 1000px;
 }
 
+
 /******************* Banner **************************************/
 /************************** Slideshow ********************************************/
 .slideshow-container {
@@ -285,6 +286,26 @@ body, html {
 
 .headlines .column {
     height: 400px;
+}
+
+.bestSelliingCol {
+	background-color: #7f7f7f;
+	padding: 2px 0px 2px 0px;
+}
+
+.bestSelliingCol h3 {
+	text-align: center;
+}
+
+.bestSelliingCol li {
+    background: #e5e5e5;
+    padding: 4px;
+}
+
+.bestSelliingCol li a {
+	text-decoration: none;
+	color: black;
+	text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .footer {
